@@ -1,9 +1,4 @@
-# Estudantes, livros e Alugueis
-
-## o programa crud foi elaborado com operações de cadastrar, atualizar,listar e deletar.
-
-## estudantes
- - cadastrarestudantesconst  {estudantes} = require("../data")
+const  {estudantes} = require("../data")
 
 function criarestudante(req,res) {
     console.log(req.body)
